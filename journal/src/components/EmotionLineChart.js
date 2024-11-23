@@ -27,7 +27,7 @@ const EmotionLineChart = ({ data }) => {
           <Line type="monotone" dataKey="happy" stroke="#00e676" />
           <Line type="monotone" dataKey="sad" stroke="#29b6f6" />
           <Line type="monotone" dataKey="angry" stroke="#ff1744" />
-          <Line type="monotone" dataKey="anxious" stroke="#cdde60" />
+          <Line type="monotone" dataKey="anxious" stroke="#cc813f" />
           <Line type="monotone" dataKey="confused" stroke="#9c27b0" />
         </LineChart>
       </ResponsiveContainer>

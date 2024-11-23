@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Antipasto';
-    src: url(../assets/fonts/AntipastoPro_trial.ttf);
+    src: url(../assets/fonts/Happy\ School.otf);
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -18,5 +18,5 @@
 .navbar-brand {
     text-align: center;
     font-size: 30px;
-    font-family: 'Antipasto';
+    /* font-family: 'Antipasto'; */
 }

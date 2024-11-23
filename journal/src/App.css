@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'Notes';
-  src: url(./assets/fonts/A\ Note.ttf);
+  src: url(./assets/fonts/Clean\ Notes.otf);
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -8,7 +8,7 @@
 
 @font-face {
   font-family: 'Antipasto';
-  src: url(./assets/fonts/AntipastoPro_trial.ttf);
+  src: url(./assets/fonts/Happy\ School.otf);
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -37,8 +37,6 @@
   background-color: #f8f9fa;
   display: flex;
   flex-direction: column;
-  font-family: 'Antipasto';
-  font-size: 24px;
 }
 
 .left-panel h2 {
@@ -54,7 +52,7 @@
   border: 1px solid #ccc;
   resize: none;
   font-family: 'Notes';
-  font-size: 25px;
+  font-size: 32px;
   font-weight: bold;
   filter: drop-shadow(7px 7px 10px #000);
 }
@@ -70,25 +68,23 @@
 }
 
 .right-panel h3 {
-  font-family: 'Antipasto';
+  /* font-family: 'Antipasto'; */
   font-size: 35px;
 }
 
 .right-panel span, p {
-  font-family: 'Antipasto';
+  /* font-family: 'Antipasto'; */
   font-size: 20px;
 }
 
 /* Emotion Track Bar Section */
 .emotion-track {
   margin-bottom: 20px;
-  font-size: 20px;
-  filter: drop-shadow(5px 5px 20px #000);
+  font-size: 20px;;
 }
 
 .emotion-track h3 {
   margin-bottom: 10px;
-  filter: drop-shadow(0px 0px 0px #000)
 }
 
 .track-bars {
@@ -110,12 +106,17 @@
   width: 100%;
 }
 
+.recharts-default-legend {
+  background-color: #333;
+  border-radius: 20px;
+}
+
 .recharts-legend-item {
-  filter: drop-shadow(1px 1px 2px #000)
+  /* filter: drop-shadow(1px 1px 2px #000) */
 }
 
 .recharts-legend-item-text {
-  font-family: 'Antipasto';
+  /* font-family: 'Antipasto'; */
 }
 
 /* Emotion Graph Section */
@@ -187,8 +188,8 @@
   font-size: 16px;
   cursor: pointer;
   z-index: 1;
-  font-family: 'Antipasto';
-  font-size: 20px;
+  /* font-family: 'Antipasto'; */
+  /* font-size: 20px; */
   font-weight: bold;
 }
 

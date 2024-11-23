@@ -52,7 +52,7 @@ const EmotionTrackBar = ({
             value={emotionLevels.anxious || 0}
             text={`${emotionLevels.anxious || 0}%`}
             styles={buildStyles({
-              pathColor: "#cdde60", // Yellow for anxious
+              pathColor: "#cc813f", // Orange for anxious
               textColor: "#333",
               trailColor: "#d6d6d6",
             })}
